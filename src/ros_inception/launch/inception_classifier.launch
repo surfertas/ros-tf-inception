@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<!--
+\file   inception_classifier.launch
+-->
+
+<launch>
+    <node name="camera_feed" pkg="ros_inception" type="image_raw.py" respawn="true"/>
+    <node name="object_classifier" pkg="ros_inception" type="tf_inception_objects.py" respawn="true"/>
+</launch>

@@ -1,0 +1,8 @@
+prefix=/home/tasuku/workspace/ROS/tokyo-ros-meetup/ros-inception/devel
+
+Name: ros-inception
+Description: Description of ros-inception
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/tasuku/workspace/ROS/tokyo-ros-meetup/ros-inception/devel/lib 
+Requires: 
